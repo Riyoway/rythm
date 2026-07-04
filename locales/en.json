@@ -1,0 +1,123 @@
+{
+    "not-owner": ":x: **You are not the owner of this bot!**",
+    "settings-reset": "♻️ **Settings have been reset.**",
+    "settings": {
+        "prefix": {
+            "ok": ":thumbsup: **Prefix set to**",
+            "miss": {
+                "title": "Rythm Settings - ❗ Prefix",
+                "desc": "Changes the prefix used to address Rythm bot.",
+                "current": "📄 Current Setting:",
+                "update": "✏️ Update:",
+                "update-val": "settings prefix [New Prefix]",
+                "valid": "✅ Valid Settings:",
+                "valid-val": "Any text, at most 5 characters (e.g. !)"
+            }
+        }
+    },
+    "other-cmds": {
+        "rythm-settings": {
+            "title": "Rythm Settings",
+            "desc": "Use the command format `{prefix}settings <option>` to view more info about an option.",
+            "field": {
+                "prefix": "❗ Prefix",
+                "blacklist": "🚫 Blacklist",
+                "autoplay": "🎵 Autoplay",
+                "announce-songs": "🔔 Announce Songs",
+                "max-queue-length": ":hash: Max Queue Length",
+                "max-user-songs": "🔢 Max User Songs",
+                "duplicate-song-prevention": ":notes: Duplicate Song Prevention",
+                "def-volume": "🔊 Default Volume",
+                "dj-only-playlist": "🔢 DJ Only Playlists",
+                "dj-only": "🚷 DJ Only",
+                "set-dj-role": "📃 Set DJ Role",
+                "reset": "♻ Reset"
+            }
+        },
+        "ping-pong": "**🏓 Pong!**",
+        "help": {
+            "title": "Help",
+            "desc": "✅ To see a list of commands, please use `{prefix}commands`\n❓ New to Rythm? Check out our [FAQ](https://rythm-fm.netlify.app/)\n📄 Still need help? [Click here](https://rythm-fm.netlify.app/) to join our Discord server"
+        }
+    },
+    "music": {
+        "joined": "**:thumbsup: Joined** `{vc}` **and bound to** {tc}",
+        "playing": "**Playing** :notes: `{title}` - Now!",
+        "searching": "<:youtube:1486285646883717262> **Searching** 🔎",
+        "search-footer": "Type a number to make a choice, Type cancel to exit",
+        "search-timeout": ":x: **Search timed out. No song was selected.**",
+        "search-cancelled": ":x: **Search cancelled.**",
+        "search-invalid": ":x: **Please enter a number between 1 and 10.**",
+        "queue-title": "Queue for",
+        "queue-desc": {
+            "now-playing": "__Now Playing:__",
+            "requested-by": "Requested by:",
+            "up-next": "__Up Next:__",
+            "nothing": "Nothing",
+            "songs-in-queue": "songs in queue",
+            "total-length": "total length"
+        },
+        "queue-must-be-a-number": ":x: **Page must be a number**",
+        "queue-only-pages": ":x: **There are only {pages} pages available**",
+        "replay": ":arrow_right_hook: **Replayed**",
+        "requested-by": "Requested by",
+        "channel": "Channel",
+        "song-duration": "Song Duration",
+        "estimated-time": "Estimated time until playing",
+        "position-in-queue": "Position in queue",
+        "enqueued": "Enqueued",
+        "searching-lyrics": "🔍 **Searching lyrics for**",
+        "lyrics-not-found": "**:x: Lyrics is not found**",
+        "lyrics-long-to-display": ":x: **Lyrics too long to display.**",
+        "queue-shuffle": ":twisted_rightwards_arrows: **Shuffled**",
+        "already-paused": ":x: **The player is already paused**",
+        "already-resumed": ":x: **The player is already resumed**",
+        "paused": "**Paused** :pause_button:",
+        "resume": "**Resumed** :arrow_forward:",
+        "url-not-supported": ":x: **The URL does not exist or is not supported.**",
+        "noting-playing": ":x: **There is nothing playing.**",
+        "successfully-dc": "📭 **Successfully disconnected**",
+        "no-result-found": ":x: **No result found for**",
+        "skipped": ":fast_forward: **_Skipped_** :thumbsup:",
+        "user-not-in-same-vc": ":x: **You need to be in the same voice channel as Rythm to use this command.**",
+        "user-not-in-vc": ":x: **You have to be in a voice channel to use this command.**",
+        "nothing-entered": ":x: **Enter the name or url of the music.**",
+        "already-joined": ":x: **Already joined the voice channel.**",
+        "loop-queue-mode": {
+            "enabled": ":repeat: **Queue loop enabled!**",
+            "disabled": ":repeat: **Queue loop Disabled!**"
+        },
+        "loop-mode": {
+            "enabled": ":repeat_one: **Enabled!**",
+            "disabled": ":repeat_one: **Disabled!**"
+        },
+        "added-to-queue": "Added to queue",
+        "playlist-added": {
+            "title": "Playlist added to queue",
+            "estimated-time": "Estimated time until playing",
+            "position": "Position in queue",
+            "enqueued": "Enqueued"
+        },
+        "volume-set": "🔊 **Volume set to**",
+        "volume-invalid": ":x: **Volume must be between 1 and 200**",
+        "cleared": "💥 **Cleared the queue**",
+        "removed": "🗑️ **Removed**",
+        "moved": "↕️ **Moved**",
+        "removedupes": "🗑️ **Removed duplicate songs from the queue**",
+        "seeked": ":fast_forward: **Seeked to**",
+        "forwarded": ":fast_forward: **Forwarded to**",
+        "rewound": "⏪ **Rewound to**",
+        "queue-ended": "✅ **Queue concluded.**",
+        "missing-permissions": ":x: **I need the `Connect` and `Speak` permissions to join and play music!**",
+        "voice-full": ":x: **Your voice channel is full!**",
+        "now-playing": {
+            "title": "**Now Playing** :notes:",
+            "time": "Time:"
+        },
+        "skipto": ":fast_forward: **Skipped to position**",
+        "playtop": "⏫ **Added to the top of the queue**",
+        "playskip": "⏭️ **Skipped and now playing**",
+        "invalid-position": ":x: **Please enter a valid position in the queue.**",
+        "no-dupes": ":x: **No duplicate songs found in the queue.**"
+    }
+}

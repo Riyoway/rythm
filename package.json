@@ -1,0 +1,44 @@
+{
+  "name": "meatwo-bot",
+  "version": "1.0.0",
+  "description": "Made this to learn programming",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/rest": "^2.2.0",
+    "@discordjs/voice": "^0.19.2",
+    "@distube/ytdl-core": "^4.16.12",
+    "@keyv/sqlite": "^3.6.6",
+    "@sapphire/snowflake": "^3.5.1",
+    "discord-api-types": "^0.37.71",
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ffmpeg-static": "^5.2.0",
+    "keyv": "^4.5.4",
+    "libsodium-wrappers": "^0.8.2",
+    "lyrics-finder": "^21.7.0",
+    "pify": "^6.1.0",
+    "play-dl": "^1.9.7",
+    "voice-text": "^0.1.2",
+    "youtube-dl-exec": "^3.1.4",
+    "youtube-ext": "^1.1.25",
+    "yt-search": "^2.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}

@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Secrets & environment
+.env
+.env.*
+!.env.example
+
+# Runtime database (per-guild prefixes & settings)
+db.sqlite
+db.sqlite-journal
+db.sqlite-wal
+db.sqlite-shm
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
