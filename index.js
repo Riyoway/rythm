@@ -34,7 +34,7 @@ client.once('clientReady', () => {
   console.log(`login with ${client.user.tag} account`);
   console.log('all ok');
   client.user.setPresence({ status: 'idle' });
-  client.user.setActivity('new website! https://rythm-fm.netlify.app/', { type: ActivityType.Playing });
+  client.user.setActivity('new website! https://rythm.riyo.me/', { type: ActivityType.Playing });
 });
 
 // Command Router — lazy require() so !sync hot-reload works

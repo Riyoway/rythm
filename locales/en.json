@@ -37,7 +37,7 @@
         "ping-pong": "**🏓 Pong!**",
         "help": {
             "title": "Help",
-            "desc": "✅ To see a list of commands, please use `{prefix}commands`\n❓ New to Rythm? Check out our [FAQ](https://rythm-fm.netlify.app/)\n📄 Still need help? [Click here](https://rythm-fm.netlify.app/) to join our Discord server"
+            "desc": "✅ To see a list of commands, please use `{prefix}commands`\n❓ New to Rythm? Check out our [FAQ](https://rythm.riyo.me/)\n📄 Still need help? [Click here](https://rythm.riyo.me/) to join our Discord server"
         }
     },
     "music": {
